@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="bg">
+    <div class="container">
+      <div class="card">
+        <h1 class="title">Sign in</h1>
+        <form class="form" action="LoginServlet" method="post">
+            <label class="label">Username</label>
+            <input class="input" type="text" name="username" required>
+
+            <label class="label">Password</label>
+            <input class="input" type="password" name="password" required>
+
+            <button class="btn" type="submit">Login</button>
+        </form>
+        <p class="hint">Use <strong>admin</strong> / <strong>admin123</strong></p>
+      </div>
+    </div>
+</body>
+</html>

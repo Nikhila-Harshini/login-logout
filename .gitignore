@@ -1,0 +1,25 @@
+# Maven / Java
+target/
+*.class
+*.log
+*.war
+*.ear
+*.jar
+*.iml
+/.idea/
+/.settings/
+/.classpath
+/.project
+/.factorypath
+
+# IDE
+.vscode/
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jetty temporary directories
+target/tmp/
